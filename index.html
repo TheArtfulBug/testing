@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Авторизация</title>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+
+<body>
+
+
+    <div class="form">
+    <div class="clr"></div>
+    </div>
+
+
+    <div id="login-form">
+      <h1>АВТОРИЗАЦИЯ</h1>
+        <fieldset>
+            <form class="form_auth_style" action="#">
+                <input type="email" name="login" placeholder="Введите Email" required >
+                <input type="password" name="pass" placeholder="Введите пароль" pattern ="^[a-zA-Z0-9]+$" minlength="6" maxlength="20" required>
+                <button class="form_auth_button" type="submit">ВОЙТИ</button>
+            </form>
+        </fieldset>
+    </div>
+</body>
+</html>
